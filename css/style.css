@@ -1,0 +1,31 @@
+
+H1, H2, H3 {
+    font-family: 'Playfair Display', serif;
+}
+p, a, label, button {
+    font-family: 'Raleway', sans-serif;
+}
+nav {
+    background-color: #80489C;
+}
+
+footer {
+    background-color: #80489C;
+}
+button, .cta {
+    background-color: #432C7A;
+    color: white;
+}
+#hero {
+    /* opacity:60%; */
+    border-radius: 40px;
+}
+.social {
+    background-color: #4f27aa;
+    padding: 10px;
+    border-radius: 8px;
+}
+.garden1 {
+    /* height: 90vh; */
+    /* width: auto; */
+}
