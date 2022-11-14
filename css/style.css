@@ -1,6 +1,14 @@
 
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
 H1, H2, H3 {
     font-family: 'Playfair Display', serif;
+}
+p {
+    font-size: larger;
 }
 p, a, label, button {
     font-family: 'Raleway', sans-serif;
@@ -19,13 +27,19 @@ button, .cta, .btn {
 #hero {
     /* opacity:60%; */
     border-radius: 40px;
+    height: 80vh;
+    width: auto;
 }
 .social {
     background-color: #4f27aa;
     padding: 10px;
     border-radius: 8px;
 }
+.accordion-button {
+    background-color: #80489C;
+}
 .garden1 {
     width: 70vw;
     height: auto;
 }
+
