@@ -42,4 +42,7 @@ button, .cta, .btn {
     width: 70vw;
     height: auto;
 }
+.personal-div, .collab-div {
+    border: black solid 2px;
+}
 
