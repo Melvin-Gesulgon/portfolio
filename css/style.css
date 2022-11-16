@@ -9,6 +9,7 @@ H1, H2, H3 {
 }
 p {
     font-size: larger;
+    text-align: justify;
 }
 p, a, label, button {
     font-family: 'Raleway', sans-serif;
