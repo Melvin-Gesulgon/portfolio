@@ -46,4 +46,7 @@ button, .cta, .btn {
 .personal-div, .collab-div {
     border: black solid 2px;
 }
-
+.collab-img {
+    height: 10rem;
+    width: auto;
+}
