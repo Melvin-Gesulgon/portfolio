@@ -41,7 +41,7 @@
         <ul class="navbar-nav fw-bold fs-5">
             
             <li class="nav-item">
-              <a class="nav-link text-white" href="content-writing.html">SEO Content Writing</a>
+              <a class="nav-link text-white" href="content-writing.html">Content Writing</a>
             </li>
             <li class="nav-item">
               <a class="nav-link text-white" href="video-editing.html">Video Editing</a>
@@ -52,9 +52,9 @@
             <li class="nav-item">
               <a class="nav-link text-white" href="about.html">About Me</a>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a class="nav-link text-white" href="contact.html">Contact</a>
-            </li>
+            </li> -->
         </ul>
     </div>
   </div> 
@@ -229,15 +229,41 @@
         
     
 
-      <!-- socials -->
-  <footer class="row mt-5 sticky-bottom">
-    <p class="col-6 col-md fs-3 text-end text-white">Follow me</p>
+<!-- socials -->
+<footer class="row mt-5 sticky-bottom pt-2">
+  <p class="col-6 col-md text-end text-white">Follow me in</p>
+
+    <div class="col-6 col-md text-start">
+        <!-- Facebook -->
+        <a href="https://www.facebook.com/profile.php?id=100082227820855" class=""><i class="fa-brands fa-facebook-f fs-4 pt-2 social"></i></a>
+        <a href="https://www.linkedin.com/in/melvin-gesulgon-9197a5183/" class=""><i class="fa-brands fa-linkedin fs-4 pt-2 social"></i></a>
+        <a href="https://github.com/Melvin-Gesulgon" class=""><i class="fa-brands fa-github fs-4 pt-2 social"></i></a>
+    </div>
+  </footer>
+
+  <script>
+    var chatbox = document.getElementById('fb-customer-chat');
+    chatbox.setAttribute("page_id", "113005471626141");
+    chatbox.setAttribute("attribution", "biz_inbox");
+  </script>
   
-      <div class="col-6 col-md text-start">
-          <!-- Facebook -->
-          <a href="https://www.facebook.com/profile.php?id=100082227820855" class=""><i class="fa-brands fa-facebook-f fs-4 pt-2 social"></i></a>
-      </div>
-    </footer>
+  <!-- Your SDK code -->
+  <script>
+    window.fbAsyncInit = function() {
+      FB.init({
+        xfbml            : true,
+        version          : 'v15.0'
+      });
+    };
+  
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 

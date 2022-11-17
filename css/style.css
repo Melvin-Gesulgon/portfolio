@@ -50,3 +50,13 @@ button, .cta, .btn {
     height: 10rem;
     width: auto;
 }
+a:hover {
+    color:#432C7A;
+}
+a:focus {
+    color:#432C7A;
+}
+li:hover {
+    background-color: #432C7A;
+    border-radius: 10rem;
+}
